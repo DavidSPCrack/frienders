@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.fernandez.carlos.chorbagenda.ui.activities.MainActivity">
+
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="100"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/a"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_a"
+        app:showAsAction="always"
+        android:title="@string/a" />
+
+    <item
+        android:id="@+id/b"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_b"
+        app:showAsAction="always"
+        android:title="@string/b" />
+
+    <item
+        android:id="@+id/c"
+        android:orderInCategory="400"
+        android:icon="@drawable/ic_c"
+        app:showAsAction="always"
+        android:title="@string/c" />
+</menu>
